@@ -1,10 +1,14 @@
 # SMB UEFI — 超级马力欧兄弟 UEFI Shell 移植
 
 将红白机（NES）《超级马力欧兄弟》（Super Mario Bros）移植到 **UEFI Shell** 环境下运行。图形输出使用 UEFI GOP（Graphics Output Protocol），纯软件渲染，无音频依赖。可在 QEMU + OVMF 或真机 UEFI Shell 下运行。
+<img width="1268" height="825" alt="full4" src="https://github.com/user-attachments/assets/61f4d615-11ce-401a-8cf6-3c48e5b7a10d" />
 
 ## 项目来源
 
 本项目基于 [nukep/smb-vanilla-port](https://github.com/nukep/smb-vanilla-port) 的 C/C++ 反编译代码进行移植。原始项目将 NES 6502 汇编反编译为现代 C 代码，保留原始游戏逻辑的精确行为（包括 Bug）。
+<img width="768" height="716" alt="welcomescreen" src="https://github.com/user-attachments/assets/f9b356f7-b13c-481b-858c-2cec74bc777a" />
+<img width="1258" height="789" alt="into game" src="https://github.com/user-attachments/assets/a43035e4-c4b1-466a-8052-b07562792fae" />
+
 
 ## 改进与原项目的差异
 
@@ -98,11 +102,12 @@ uefi/
 # SMB UEFI — Super Mario Bros for UEFI Shell
 
 A port of the NES classic "Super Mario Bros" to the **UEFI Shell** environment. Uses UEFI GOP for graphics, pure software rendering, no audio. Runs on QEMU + OVMF or bare-metal UEFI systems.
-
+<img width="1268" height="825" alt="full4" src="https://github.com/user-attachments/assets/61f4d615-11ce-401a-8cf6-3c48e5b7a10d" />
 ## Origin
 
 Based on the C/C++ decompilation from [nukep/smb-vanilla-port](https://github.com/nukep/smb-vanilla-port), which reverse-engineered the NES 6502 assembly into modern C code while preserving exact game behavior (bugs included).
-
+<img width="768" height="716" alt="welcomescreen" src="https://github.com/user-attachments/assets/f9b356f7-b13c-481b-858c-2cec74bc777a" />
+<img width="1258" height="789" alt="into game" src="https://github.com/user-attachments/assets/a43035e4-c4b1-466a-8052-b07562792fae" />
 ## Key Improvements
 
 - **IP-safe ROM handling**: PRG-ROM and CHR-ROM extracted as bare `.bin` files without the copyrighted iNES header. No Nintendo data in this repository.
