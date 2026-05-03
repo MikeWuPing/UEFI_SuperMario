@@ -1,7 +1,7 @@
 # SMB UEFI — 超级马力欧兄弟 UEFI Shell 移植
 
 将红白机（NES）《超级马力欧兄弟》（Super Mario Bros）移植到 **UEFI Shell** 环境下运行。图形输出使用 UEFI GOP（Graphics Output Protocol），纯软件渲染，无音频依赖。可在 QEMU + OVMF 或真机 UEFI Shell 下运行。
-<img width="1268" height="825" alt="full4" src="https://github.com/user-attachments/assets/61f4d615-11ce-401a-8cf6-3c48e5b7a10d" />
+<img width="1268" height="825" alt="full1" src="https://github.com/user-attachments/assets/1e26143e-acd9-4914-8f37-9c0c8fc4fd17" />
 
 ## 项目来源
 
